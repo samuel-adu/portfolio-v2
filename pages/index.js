@@ -46,23 +46,20 @@ export default function Home() {
         <h2 className="text-4xl text-center">About Me</h2>
 
         <p className="text-base">
-          <p>
-            I’m a front-end developer looking for a new role in an exciting
-            company. I focus on writing accessible HTML, using modern CSS
-            practices and writing clean JavaScript. When writing JavaScript
-            code, I mostly use React, but I can adapt to whatever tools are
-            required.
-          </p>
-
-          <p>
-            I’m based in Lagos, Nigeria, I’m happy working remotely and have
-            experience in remote teams. When I’m not coding, you’ll find me
-            outdoors. I never miss playing football on saturday morning because
-            I can not afford gym membership and I need to stay fit.
-          </p>
-
-          <p>I’d love you to check out my work.</p>
+          I’m a front-end developer looking for a new role in an exciting
+          company. I focus on writing accessible HTML, using modern CSS
+          practices and writing clean JavaScript. When writing JavaScript code,
+          I mostly use React, but I can adapt to whatever tools are required.
         </p>
+
+        <p>
+          I’m based in Lagos, Nigeria, I’m happy working remotely and have
+          experience in remote teams. When I’m not coding, you’ll find me
+          outdoors. I never miss playing football on saturday morning because I
+          can not afford gym membership and I need to stay fit.
+        </p>
+
+        <p>I’d love you to check out my work.</p>
 
         <hr className={utilStyles.hr} />
       </div>
