@@ -48,12 +48,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
-                  src="/images/favicon-32x32.png"
-                  alt=""
-                  width={24}
-                  height={24}
-                />
+                <Image src="/favicon-32x32.png" alt="" width={24} height={24} />
               </a>
             </li>
           </ul>
