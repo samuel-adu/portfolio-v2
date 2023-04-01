@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 import utilStyles from "../styles/utils.module.css";
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} mt-10`}>
       <div className={utilStyles.container}>
         <div className=" py-14 sm:p-0 sm:flex flex-row-reverse">
           <ul className="text-center sm:flex gap-8 my-4 sm:ml-auto items-center">
