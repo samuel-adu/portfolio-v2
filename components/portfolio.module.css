@@ -1,13 +1,8 @@
 .card {
   margin-bottom: 1.5em;
   border: 1px solid var(--clr-neutral-400);
-  /* border-radius: 0.5em; */
 }
 
 .cardText {
-  padding: 1.75em;
+  padding: 1.5em;
 }
-
-/* .cardImg {
-  border-radius: 0.5em 0.5em 0 0;
-} */
