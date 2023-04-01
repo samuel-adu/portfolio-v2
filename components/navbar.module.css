@@ -1,9 +1,13 @@
+.nav {
+  border-bottom: 1px solid var(--clr-neutral-400);
+  margin-bottom: 2em;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
   padding-block: 2em;
-  margin-bottom: 2em;
 }
 
 .logo {

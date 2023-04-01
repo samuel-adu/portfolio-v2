@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <div className={utilStyles.container}>
         <div className={`${styles.navbar} `}>
           <Link href="/" className={styles.logo}>

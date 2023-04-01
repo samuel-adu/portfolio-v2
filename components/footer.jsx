@@ -19,30 +19,15 @@ export default function Footer() {
             </li>
           </ul>
 
-          <ul className="flex gap-4 items-center justify-center">
+          <ul className="flex gap-4 items-center justify-center mb-8">
             <li>
-              <Image
-                src="/../images/icons/github.svg"
-                alt=""
-                width={24}
-                height={24}
-              />
+              <i class="fa-brands fa-github text-2xl"></i>
             </li>
             <li>
-              <Image
-                src="/../images/icons/twitter.svg"
-                alt=""
-                width={24}
-                height={19.5}
-              />
+              <i class="fa-brands fa-twitter text-2xl"></i>
             </li>
             <li>
-              <Image
-                src="/../images/icons/linkedin.svg"
-                alt=""
-                width={24}
-                height={24}
-              />
+              <i class="fa-brands fa-linkedin text-2xl"></i>
             </li>
           </ul>
 
@@ -52,7 +37,7 @@ export default function Footer() {
               alt=""
               width={61}
               height={32}
-              className={styles.img}
+              className="fill-blue-500"
             />
             <small>
               Copyright &copy; {new Date().getFullYear()} Samuel Adu
