@@ -32,13 +32,7 @@ export default function Footer() {
           </ul>
 
           <div className="flex gap-2 justify-center items-center">
-            <Image
-              src="/../images/logo.svg"
-              alt=""
-              width={61}
-              height={32}
-              className="fill-blue-500"
-            />
+            <Image src="/../images/logo.svg" alt="" width={61} height={32} />
             <small>
               Copyright &copy; {new Date().getFullYear()} Samuel Adu
             </small>
