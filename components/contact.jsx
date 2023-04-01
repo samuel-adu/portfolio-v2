@@ -23,6 +23,16 @@ export default function Contact() {
         <div>
           <ul className="flex gap-4 my-8 items-center">
             <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/../images/icons/linkedin.svg"
+                  alt=""
+                  width={24}
+                  height={24}
+                />
+              </a>
+            </li>
+            <li>
               <a href="http://" target="_blank">
                 <Image
                   src="/../images/icons/github.svg"
@@ -33,19 +43,13 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.frontendmentor.io/profile/theadusamuel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
-                  src="/../images/icons/twitter.svg"
-                  alt=""
-                  width={24}
-                  height={19.5}
-                />
-              </a>
-            </li>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/../images/icons/linkedin.svg"
+                  src="/images/favicon-32x32.png"
                   alt=""
                   width={24}
                   height={24}
