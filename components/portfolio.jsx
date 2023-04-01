@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div className={styles.card}>
           <div className="relative w-full h-72">
             <Image
-              src="/../public/images/portfolio/mobile/image-portfolio-manage@2x.jpg"
+              src="/images/portfolio/mobile/image-portfolio-manage@2x.jpg"
               alt=""
               fill
               // width={311}
@@ -37,7 +37,7 @@ export default function Portfolio() {
         <div className={styles.card}>
           <div className="relative w-full h-72">
             <Image
-              src="/../public/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg"
+              src="/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg"
               alt=""
               fill
               // width={311}
@@ -61,7 +61,7 @@ export default function Portfolio() {
         <div className={styles.card}>
           <div className="relative w-full h-72">
             <Image
-              src="/../public/images/portfolio/mobile/image-portfolio-insure@2x.jpg"
+              src="/images/portfolio/mobile/image-portfolio-insure@2x.jpg"
               alt=""
               fill
               // width={311}
@@ -86,7 +86,7 @@ export default function Portfolio() {
         <div className={styles.card}>
           <div className="relative w-full h-72">
             <Image
-              src="/../public/images/portfolio/mobile/image-portfolio-fylo@2x.jpg"
+              src="/images/portfolio/mobile/image-portfolio-fylo@2x.jpg"
               alt=""
               fill
               // width={311}

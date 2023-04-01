@@ -21,18 +21,18 @@ export default function Footer() {
 
           <ul className="flex gap-4 items-center justify-center mb-8">
             <li>
-              <i class="fa-brands fa-github text-2xl"></i>
+              <i className="fa-brands fa-github text-2xl"></i>
             </li>
             <li>
-              <i class="fa-brands fa-twitter text-2xl"></i>
+              <i className="fa-brands fa-twitter text-2xl"></i>
             </li>
             <li>
-              <i class="fa-brands fa-linkedin text-2xl"></i>
+              <i className="fa-brands fa-linkedin text-2xl"></i>
             </li>
           </ul>
 
           <div className="flex gap-2 justify-center items-center">
-            <Image src="/../images/logo.svg" alt="" width={61} height={32} />
+            {/* <Image src="/../images/logo.svg" alt="" width={61} height={32} /> */}
             <small>
               Copyright &copy; {new Date().getFullYear()} Samuel Adu
             </small>

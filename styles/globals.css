@@ -9,9 +9,6 @@
 }
 
 :root {
-  --ff-heading: "Ibarra Real Nova", serif;
-  --ff-body: "Public Sans", sans-serif;
-
   --clr-primary-400: hsl(167, 36%, 54%);
   --clr-primary-700: hsl(205, 41%, 21%);
   --clr-primary-900: hsl(245, 10%, 22%);
@@ -26,7 +23,6 @@ html {
 }
 
 body {
-  font-family: var(--ff-primary);
   font-size: 1rem;
   line-height: 1.6;
   color: var(--clr-primary-900);
