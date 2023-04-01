@@ -30,19 +30,16 @@ export default function Home() {
 
           <div className="flex gap-4">
             <a
-              href="https://github.com/theadusamuel"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${utilStyles.btn} ${utilStyles.btnPrimary}`}
-            >
-              GitHub
-              <i className="fa-brands fa-github ml-2"></i>
-            </a>
-            <a
               href="#portfolio"
               className={`${utilStyles.btn} ${utilStyles.btnSecondary}`}
             >
               Go To Portfolio
+            </a>
+            <a
+              href="#contact"
+              className={`${utilStyles.btn} ${utilStyles.btnPrimary}`}
+            >
+              Contact me
             </a>
           </div>
         </div>

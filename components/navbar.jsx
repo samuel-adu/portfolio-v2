@@ -11,28 +11,10 @@ export default function Navbar() {
           <Link href="/" className={styles.logo}>
             <Image src="/images/logo.svg" alt="" width={60} height={30} />
           </Link>
+          <span className="font-mono mr-auto">theadusamuel</span>
 
-          <button>
-            <Image
-              src="/../images/icons/hamburger.svg"
-              alt=""
-              width={24}
-              height={12}
-              className={styles.hamburger}
-            />
-          </button>
-
-          <ul className={styles.navList}>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="">Portfolio</Link>
-            </li>
-            <li>
-              <Link href="">Contact Me</Link>
-            </li>
-          </ul>
+          {/* <i className="fa-regular fa-moon text-2xl"></i> */}
+          <i className="fa-solid fa-sun text-2xl"></i>
         </div>
       </div>
     </nav>

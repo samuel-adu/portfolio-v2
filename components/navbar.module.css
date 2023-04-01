@@ -11,11 +11,11 @@
 }
 
 .logo {
-  margin-right: auto;
+  margin-right: 0.25em;
 }
 
 .navList {
-  display: none;
+  display: flex;
   gap: 1em;
 }
 
