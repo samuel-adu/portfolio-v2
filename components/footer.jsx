@@ -19,7 +19,7 @@ export default function Footer() {
             </li>
           </ul>
 
-          <ul className="flex gap-4 items-center justify-center mb-8">
+          <ul className="flex gap-4 items-center justify-center mb-8 sm:m-0">
             <li>
               <a
                 href="https://github.com/theadusamuel"
@@ -50,9 +50,14 @@ export default function Footer() {
           </ul>
 
           <div className="flex gap-2 justify-center items-center">
-            {/* <Image src="/../images/logo.svg" alt="" width={61} height={32} /> */}
-            <small>
-              Copyright &copy; {new Date().getFullYear()} Samuel Adu
+            <Image
+              src="/images/icons/logo-white.svg"
+              alt=""
+              width={40}
+              height={20}
+            />
+            <small className="text-xs">
+              &copy; {new Date().getFullYear()} Samuel Adu. All Rights Reserved
             </small>
           </div>
         </div>

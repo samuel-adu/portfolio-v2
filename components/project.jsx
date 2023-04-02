@@ -7,7 +7,7 @@ export default function Project(props) {
     <div className={styles.card}>
       <div className="relative w-full h-72">
         <Image
-          src={props.project.imgUrl}
+          src={`/images/${props.project.img}`}
           alt="project preview"
           fill
           // width={311}
@@ -35,7 +35,7 @@ export default function Project(props) {
             rel="noopener noreferrer"
             className={`${utilStyles.btn} ${utilStyles.btnSecondary}`}
           >
-            code <i class="fa-brands fa-github"></i>
+            code <i class="fa-solid fa-up-right-from-square"></i>
           </a>
         </div>
       </div>

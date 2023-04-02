@@ -7,14 +7,14 @@ import { projects } from "../data.js";
 
 export default function Portfolio() {
   const projectList = projects.map((project) => {
-    return <Project key={project.title} project={project} />;
+    return <Project key={project.id} project={project} />;
   });
 
   return (
     <section id="portfolio">
       <h2 className="text-4xl text-center">Portfolio</h2>
 
-      <div className="grid gap-4 md:grid-cols-4">{projectList}</div>
+      <div className="grid gap-8 md:grid-cols-3">{projectList}</div>
     </section>
   );
 }
