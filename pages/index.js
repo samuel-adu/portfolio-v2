@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/images/favicon-32x32.png" />
       </Head>
 
-      <div>
+      <div className="sm:grid grid-cols-2">
         <div>
           <h1 className="text-5xl mb-1">Samuel Adu</h1>
           <span className="font-thin">frontend developer</span>
@@ -44,10 +44,10 @@ export default function Home() {
           </div>
         </div>
 
-        <hr className={utilStyles.hr} />
+        <hr className={`${utilStyles.hr} sm:hidden`} />
 
         <div>
-          <h2 className="text-4xl text-center">About Me</h2>
+          <h2 className="text-4xl text-center sm:text-left">About Me</h2>
 
           <p className="text-base">
             I’m a front-end developer looking for a new role in an exciting
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </div>
 
-      <hr className={utilStyles.hr} />
+      <hr className={`${utilStyles.hr} sm:hidden`} />
 
       <Portfolio />
 

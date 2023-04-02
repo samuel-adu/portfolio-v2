@@ -3,9 +3,9 @@ import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="sm:w-1/2 mx-auto">
       <div>
-        <h2 className="text-4xl text-center md:text-left">Get in Touch</h2>
+        <h2 className="text-4xl text-center">Get in Touch</h2>
         <p className="text-base">
           I’d love to hear about what you’re working on and how I could help.
           I’m currently looking for a new role and am open to a wide range of
@@ -21,11 +21,15 @@ export default function Contact() {
         </p>
 
         <div>
-          <ul className="flex gap-4 my-8 items-center">
+          <ul className="flex gap-4 my-4">
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/theadusamuel/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
-                  src="/../images/icons/linkedin.svg"
+                  src="/images/icons/linkedin.svg"
                   alt=""
                   width={24}
                   height={24}
@@ -33,9 +37,13 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a href="http://" target="_blank">
+              <a
+                href="https://github.com/theadusamuel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
-                  src="/../images/icons/github.svg"
+                  src="/images/icons/github.svg"
                   alt=""
                   width={24}
                   height={24}
@@ -48,17 +56,33 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src="/favicon-32x32.png" alt="" width={24} height={24} />
+                <Image
+                  src="/images/icons/frontend-mentor.svg"
+                  // src="/favicon-32x32.png"
+                  alt=""
+                  width={24}
+                  height={24}
+                />
               </a>
             </li>
           </ul>
+
+          <div className="my-2">
+            <i className="fa-sharp fa-solid fa-envelope mr-4"></i>
+            <span>theadusamuel@gmail.com</span>
+          </div>
+
+          <div className="my-2">
+            <i className="fa-sharp fa-solid fa-phone mr-4"></i>
+            <span>+234-803-152-2927</span>
+          </div>
         </div>
       </div>
 
       <hr className={`${utilStyles.hr} sm:hidden`} />
 
       <div id="contact">
-        <h2 className="text-4xl text-center md:text-left">Contact Me</h2>
+        <h2 className="text-4xl text-center ">Contact Me</h2>
 
         <form className={styles.form}>
           <label className={styles.formControl} htmlFor="fullName">
@@ -90,7 +114,7 @@ export default function Contact() {
             placeholder="How can I help?"
           />
 
-          <button className={styles.formControl} type="submit">
+          <button className={`${styles.formControl} sm:w-1/4`} type="submit">
             Send Message
           </button>
         </form>
