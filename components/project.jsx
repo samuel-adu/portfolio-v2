@@ -20,22 +20,20 @@ export default function Project(props) {
         <h3 className="text-3xl capitalize">{props.project.title}</h3>
         <p className="text-base">{props.project.description}</p>
 
-        <div className="flex gap-4">
+        <div className="flex gap-8">
           <a
             href={props.project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className={`${utilStyles.btn} ${utilStyles.btnSecondary}`}
           >
-            demo <i class="fa-solid fa-up-right-from-square"></i>
+            preview site <i class="fa-solid fa-up-right-from-square"></i>
           </a>
           <a
             href={props.project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className={`${utilStyles.btn} ${utilStyles.btnSecondary}`}
           >
-            code <i class="fa-solid fa-up-right-from-square"></i>
+            view code <i class="fa-solid fa-up-right-from-square"></i>
           </a>
         </div>
       </div>
