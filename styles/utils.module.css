@@ -19,6 +19,7 @@
   margin-block: 1em;
   cursor: pointer;
   border: 1px solid var(--clr-primary-700);
+  border-radius: 0.25em;
 }
 
 .btnPrimary {
