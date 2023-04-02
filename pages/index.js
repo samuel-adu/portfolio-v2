@@ -28,16 +28,16 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center sm:justify-start">
             <a
               href="#portfolio"
-              className={`${utilStyles.btn} ${utilStyles.btnSecondary}`}
+              className={`${utilStyles.btn} ${utilStyles.btnSecondary} w-36`}
             >
               Go To Portfolio
             </a>
             <a
               href="#contact"
-              className={`${utilStyles.btn} ${utilStyles.btnPrimary}`}
+              className={`${utilStyles.btn} ${utilStyles.btnPrimary} w-36`}
             >
               Contact me
             </a>

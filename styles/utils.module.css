@@ -15,11 +15,13 @@
   color: var(--clr-primary-700);
   text-transform: uppercase;
   font-size: 0.75rem;
-  padding: 0.75em 2.25em;
+  /* padding: 0.75em 2.25em; */
+  padding: 1em;
   margin-block: 1em;
   cursor: pointer;
   border: 1px solid var(--clr-primary-700);
   border-radius: 0.25em;
+  text-align: center;
 }
 
 .btnPrimary {
