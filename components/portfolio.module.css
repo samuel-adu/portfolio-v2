@@ -1,8 +1,3 @@
 .card {
-  margin-bottom: 1.5em;
   border: 1px solid var(--clr-neutral-400);
-}
-
-.cardText {
-  padding: 1.5em;
 }
