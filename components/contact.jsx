@@ -3,7 +3,7 @@ import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div className="sm:w-1/2 mx-auto">
+    <div className="sm:w-3/5 mx-auto">
       <div>
         <h2 className="text-4xl text-center">Get in Touch</h2>
         <p className="text-base">
@@ -82,7 +82,7 @@ export default function Contact() {
       <hr className={`${utilStyles.hr} sm:hidden`} />
 
       <div id="contact">
-        <h2 className="text-4xl text-center ">Contact Me</h2>
+        <h2 className="text-4xl text-center">Contact Me</h2>
 
         <form className={styles.form}>
           <label className={styles.formControl} htmlFor="fullName">
@@ -114,7 +114,10 @@ export default function Contact() {
             placeholder="How can I help?"
           />
 
-          <button className={`${styles.formControl} sm:w-1/4`} type="submit">
+          <button
+            className={`${styles.formControl} sm:w-1/4 mr-auto`}
+            type="submit"
+          >
             Send Message
           </button>
         </form>

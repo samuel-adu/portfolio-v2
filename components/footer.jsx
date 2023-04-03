@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer className={`${styles.footer} mt-10`}>
       <div className={utilStyles.container}>
-        <div className=" py-14 sm:p-0 sm:flex flex-row-reverse">
-          <ul className="text-center sm:flex gap-8 my-4 sm:ml-auto items-center">
+        <div className=" py-14 sm:p-0 sm:flex sm:flex-row-reverse sm:justify-between">
+          <ul className="text-center sm:flex gap-8 my-4 items-center">
             <li className="py-4 uppercase text-xs">
               <a href="">Home</a>
             </li>
@@ -57,7 +57,7 @@ export default function Footer() {
               height={20}
             />
             <small className="text-xs">
-              &copy; {new Date().getFullYear()} Samuel Adu. All Rights Reserved
+              Copyright &copy; {new Date().getFullYear()} Samuel Adu.
             </small>
           </div>
         </div>
