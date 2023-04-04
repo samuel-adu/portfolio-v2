@@ -3,7 +3,7 @@ import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div className="sm:w-3/5 mx-auto">
+    <div id="contact" className="sm:w-3/5 mx-auto">
       <div>
         <h2 className="text-4xl text-center">Get in Touch</h2>
         <p className="text-base">
@@ -81,7 +81,7 @@ export default function Contact() {
 
       <hr className={`${utilStyles.hr} sm:hidden`} />
 
-      <div id="contact">
+      <div>
         <h2 className="text-4xl text-center">Contact Me</h2>
 
         <form className={styles.form}>
