@@ -1,7 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-import utilStyles from "../styles/utils.module.css";
-import styles from "./portfolio.module.css";
 import Project from "./project";
 import { projects } from "../data.js";
 
@@ -13,8 +9,9 @@ export default function Portfolio() {
   return (
     <section id="portfolio">
       <h2 className="text-4xl text-center">Portfolio</h2>
-
-      <div className="grid gap-8 md:grid-cols-3">{projectList}</div>
+      <div className="mb-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+        {projectList}
+      </div>
     </section>
   );
 }

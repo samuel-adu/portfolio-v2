@@ -1,26 +1,23 @@
 import Image from "next/image";
-import styles from "./portfolio.module.css";
-import utilStyles from "../styles/utils.module.css";
 
 export default function Project(props) {
   return (
-    <div className={`${styles.card} mb-6`}>
-      <div className="relative w-full h-72">
-        <Image
-          src={`/images/${props.project.img}`}
-          alt="project preview"
-          fill
-          // width={311}
-          // height={288}
-          className={styles.cardImg}
-        />
+    <div className="border border-solid border-[var(--clr-neutral-400)] flex flex-col">
+      <div className="relative flex-1">
+        <div className="relative w-full h-72">
+          <Image
+            src={`/images/${props.project.img}`}
+            alt="project preview"
+            fill
+          />
+        </div>
       </div>
 
-      <div className="p-6 flex flex-col">
+      <div className="p-6 flex flex-col flex-1">
         <h3 className="text-2xl capitalize">{props.project.title}</h3>
         <p className="text-base">{props.project.description}</p>
 
-        <div className="flex">
+        <div className="mt-auto">
           <a
             href={props.project.liveUrl}
             target="_blank"

@@ -3,7 +3,7 @@ export const projects = [
     id: "01",
     title: "todo app",
     description:
-      "The classic todo app with a few twists! This app includes a dark/light theme toggle and filter butons.",
+      "The classic todo app with a few twists! This app includes a dark/light theme toggle and filter buttons.",
     img: "todo.webp",
     github: "https://github.com/theadusamuel/Todo-App",
     liveUrl: "https://todo-app-lilac-three.vercel.app",
