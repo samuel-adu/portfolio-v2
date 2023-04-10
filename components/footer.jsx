@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={`${styles.footer} mt-10`}>
       <div className={utilStyles.container}>
         <div className=" py-14 sm:p-0 sm:flex sm:flex-row-reverse sm:justify-between">
-          <ul className="text-center sm:flex gap-8 my-4 items-center">
+          <ul className="text-center sm:order-2 sm:flex gap-8 my-4 items-center">
             <li className="py-4 uppercase text-xs">
               <a href="">Home</a>
             </li>
@@ -19,7 +19,7 @@ export default function Footer() {
             </li>
           </ul>
 
-          <ul className="flex gap-4 items-center justify-center mb-8 sm:m-0">
+          <ul className="flex sm:order-1 gap-4 items-center justify-center mb-8 sm:m-0">
             <li>
               <a
                 href="https://github.com/theadusamuel"
@@ -49,7 +49,7 @@ export default function Footer() {
             </li>
           </ul>
 
-          <div className="flex gap-2 justify-center items-center">
+          <div className="flex sm:order-3 gap-2 justify-center items-center">
             <Image
               src="/images/icons/logo-white.svg"
               alt=""
