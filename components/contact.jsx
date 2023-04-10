@@ -1,26 +1,29 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from "./contact.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div id="contact" className="sm:w-3/5 mx-auto">
+    <div id="contact" className="sm:w-2/3 mx-auto">
       <div>
         <h2 className="text-4xl text-center">Get in Touch</h2>
-        <p className="text-base">
-          I’d love to hear about what you’re working on and how I could help.
-          I’m currently looking for a new role and am open to a wide range of
-          opportunities. My preference would be to find a position in a company
-          in Lagos but I’m also happy to hear about opportunites that don’t fit
-          that description.
-        </p>
-        <p className="text-base">
-          I’m a hard-working and positive person who will always approach each
-          task with a sense of purpose and attention to detail. Please do feel
-          free to check out my online profiles below and get in touch using the
-          form.
+        <p className="text-base text-center">
+          I would love to hear about what you’re working on and how I could
+          help. Please leave me a message, and I'll get back to you as soon as
+          possible.
         </p>
 
-        <div>
+        {/* <div className="my-2 flex items-center gap-4">
+          <i className="fa-sharp fa-solid fa-envelope text-2xl"></i>
+          <span>theadusamuel@gmail.com</span>
+        </div> */}
+
+        {/* <div className="my-2 flex items-center gap-4">
+          <i className="fa-sharp fa-solid fa-phone text-2xl"></i>
+          <span>+234-803-152-2927</span>
+        </div> */}
+
+        {/* <div>
           <ul className="flex gap-4 my-4">
             <li>
               <a
@@ -66,25 +69,15 @@ export default function Contact() {
               </a>
             </li>
           </ul>
-
-          <div className="my-2">
-            <i className="fa-sharp fa-solid fa-envelope mr-4"></i>
-            <span>theadusamuel@gmail.com</span>
-          </div>
-
-          <div className="my-2">
-            <i className="fa-sharp fa-solid fa-phone mr-4"></i>
-            <span>+234-803-152-2927</span>
-          </div>
-        </div>
+        </div> */}
       </div>
 
       <hr className={`${utilStyles.hr} sm:hidden`} />
 
       <div>
-        <h2 className="text-4xl text-center">Contact Me</h2>
+        {/* <h2 className="text-4xl text-center">Contact Me</h2> */}
 
-        <form className={styles.form}>
+        <form className={`${styles.form}`}>
           <label className={styles.formControl} htmlFor="fullName">
             Name
           </label>
@@ -114,10 +107,7 @@ export default function Contact() {
             placeholder="How can I help?"
           />
 
-          <button
-            className={`${styles.formControl} sm:w-1/4 mr-auto`}
-            type="submit"
-          >
+          <button className={`${styles.formControl}`} type="submit">
             Send Message
           </button>
         </form>
