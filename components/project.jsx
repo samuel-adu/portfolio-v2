@@ -24,7 +24,7 @@ export default function Project(props) {
             rel="noopener noreferrer"
             className="inline-block w-1/2 text-base"
           >
-            Preview site <i class="fa-solid fa-up-right-from-square"></i>
+            View project <i class="fa-solid fa-up-right-from-square"></i>
           </a>
           <a
             href={props.project.github}

@@ -15,7 +15,7 @@ export default function Home() {
           content="Frontend developer portfolio of Samuel Adu"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/favicon-32x32.png" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
       <div className="sm:grid sm:grid-cols-2 sm:gap-8">
@@ -70,8 +70,7 @@ export default function Home() {
           <p>
             I’m based in Lagos, Nigeria, I’m happy working remotely and have
             experience in remote teams. When I’m not coding, you’ll find me
-            outdoors. I never miss playing football on saturday morning because
-            I can not afford gym membership and I need to stay fit.
+            outdoors.
           </p>
 
           <p>I’d love you to check out my work.</p>
