@@ -44,7 +44,12 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src="/favicon-32x32.png" alt="" width={24} height={24} />
+                <Image
+                  src="/images/icons/frontend-mentor.png"
+                  alt=""
+                  width={24}
+                  height={24}
+                />
               </a>
             </li>
           </ul>
