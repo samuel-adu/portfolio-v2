@@ -4,79 +4,23 @@ import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div id="contact" className="sm:w-2/3 mx-auto">
+    <div id="contact" className="sm:w-1/2 mx-auto">
       <div>
         <h2 className="text-4xl text-center">Get in Touch</h2>
         <p className="text-base text-center">
-          I would love to hear about what you’re working on and how I could
-          help. Please leave me a message, and I'll get back to you as soon as
-          possible.
+          Do you have a job opportunity or a project I can be a part of? Feel
+          free to reach me at{" "}
+          <span className="text-[var(--clr-primary-400)]">
+            theadusamuel@gmail.com
+          </span>
+          , you may also leave me a message using the form below and I'll get
+          back to you.
         </p>
-
-        {/* <div className="my-2 flex items-center gap-4">
-          <i className="fa-sharp fa-solid fa-envelope text-2xl"></i>
-          <span>theadusamuel@gmail.com</span>
-        </div> */}
-
-        {/* <div className="my-2 flex items-center gap-4">
-          <i className="fa-sharp fa-solid fa-phone text-2xl"></i>
-          <span>+234-803-152-2927</span>
-        </div> */}
-
-        {/* <div>
-          <ul className="flex gap-4 my-4">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/theadusamuel/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/images/icons/linkedin.svg"
-                  alt=""
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/theadusamuel"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/images/icons/github.svg"
-                  alt=""
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.frontendmentor.io/profile/theadusamuel"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/images/icons/frontend-mentor.svg"
-                  // src="/favicon-32x32.png"
-                  alt=""
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </li>
-          </ul>
-        </div> */}
       </div>
 
       <hr className={`${utilStyles.hr} sm:hidden`} />
 
       <div>
-        {/* <h2 className="text-4xl text-center">Contact Me</h2> */}
-
         <form className={`${styles.form}`}>
           <label className={styles.formControl} htmlFor="fullName">
             Name
