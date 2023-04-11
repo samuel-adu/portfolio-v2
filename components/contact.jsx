@@ -21,7 +21,7 @@ export default function Contact() {
       <hr className={`${utilStyles.hr} sm:hidden`} />
 
       <div>
-        <form className={`${styles.form}`}>
+        <form className="flex flex-col">
           <label className={styles.formControl} htmlFor="fullName">
             Name
           </label>
@@ -51,7 +51,7 @@ export default function Contact() {
             placeholder="How can I help?"
           />
 
-          <button className={`${styles.formControl}`} type="submit">
+          <button className={`${styles.formControl} md:ml-auto`} type="submit">
             Send Message
           </button>
         </form>
