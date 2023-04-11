@@ -9,13 +9,13 @@ export default function Footer() {
         <div className=" py-14 sm:p-0 sm:flex sm:flex-row-reverse sm:justify-between">
           <ul className="text-center sm:order-2 sm:flex gap-8 my-4 items-center">
             <li className="py-4 uppercase text-xs">
-              <a href="">Home</a>
+              <a href="#">Home</a>
             </li>
             <li className="py-4 uppercase text-xs">
               <a href="#portfolio">Portfolio</a>
             </li>
             <li className="py-4 uppercase text-xs">
-              <a href="#contact">Contact Me</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
 
