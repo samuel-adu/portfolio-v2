@@ -8,7 +8,7 @@ export default function Portfolio() {
 
   return (
     <section id="portfolio">
-      <h2 className="text-4xl text-center">Portfolio</h2>
+      <h2 className="text-4xl text-center">Stuff I Built</h2>
       <div className="mb-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {projectList}
       </div>
