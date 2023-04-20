@@ -8,24 +8,13 @@
   box-sizing: border-box;
 }
 
-:root {
-  --clr-primary-400: hsl(167, 36%, 54%);
-  --clr-primary-700: hsl(205, 41%, 21%);
-  --clr-primary-900: hsl(245, 10%, 22%);
-  --clr-neutral-100: hsl(0, 0%, 98%);
-  --clr-neutral-400: hsl(240, 2%, 92%);
-  --clr-accent-400: hsl(0, 90%, 57%);
-}
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 1.5rem;
 }
 
-body {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: var(--clr-primary-900);
+main {
+  min-height: calc(100vh - 100px);
 }
 
 img,
@@ -50,8 +39,4 @@ h3 {
 
 p {
   margin-bottom: 1em;
-}
-
-main {
-  min-height: calc(100vh - 100px);
 }
