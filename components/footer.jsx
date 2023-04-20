@@ -1,23 +1,25 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./footer.module.css";
+import utilStyles from "../styles/utils.module.css";
 export default function Footer() {
   return (
-    <footer className="mt-10 bg-primary-700 text-neutral-100">
-      <div className="container">
-        <div className="py-14 sm:flex sm:flex-row-reverse sm:justify-between sm:p-0">
-          <ul className="my-4 items-center gap-8 text-center sm:order-2 sm:flex">
-            <li className="py-4 text-xs uppercase">
+    <footer className={`${styles.footer} mt-10`}>
+      <div className={utilStyles.container}>
+        <div className=" py-14 sm:p-0 sm:flex sm:flex-row-reverse sm:justify-between">
+          <ul className="text-center sm:order-2 sm:flex gap-8 my-4 items-center">
+            <li className="py-4 uppercase text-xs">
               <a href="#">Home</a>
             </li>
-            <li className="py-4 text-xs uppercase">
+            <li className="py-4 uppercase text-xs">
               <a href="#portfolio">Portfolio</a>
             </li>
-            <li className="py-4 text-xs uppercase">
+            <li className="py-4 uppercase text-xs">
               <a href="#contact">Contact</a>
             </li>
           </ul>
 
-          <ul className="mb-8 flex items-center justify-center gap-4 sm:order-1 sm:m-0">
+          <ul className="flex sm:order-1 gap-4 items-center justify-center mb-8 sm:m-0">
             <li>
               <a
                 href="https://github.com/theadusamuel"
@@ -52,7 +54,7 @@ export default function Footer() {
             </li>
           </ul>
 
-          <div className="flex items-center justify-center gap-2 sm:order-3">
+          <div className="flex sm:order-3 gap-2 justify-center items-center">
             <Image
               src="/images/icons/logo-white.svg"
               alt=""

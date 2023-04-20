@@ -1,17 +1,19 @@
 import Image from "next/image";
+import utilStyles from "../styles/utils.module.css";
+import styles from "./navbar.module.css";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="mb-8 border-b border-solid border-neutral-400">
-      <div className="container">
-        <div className="flex items-center py-8">
-          <Link href="/" className="mr-1">
+    <nav className={styles.nav}>
+      <div className={utilStyles.container}>
+        <div className={`${styles.navbar} `}>
+          <Link href="/" className={styles.logo}>
             <Image src="/images/logo.svg" alt="" width={60} height={30} />
           </Link>
-          <span className="mr-auto font-mono">theadusamuel</span>
+          <span className="font-mono mr-auto">theadusamuel</span>
 
-          <ul className="mx-4 hidden items-center gap-4 sm:flex">
+          <ul className="hidden sm:flex gap-4 items-center mx-4">
             <li>
               <a
                 href="https://github.com/theadusamuel"
