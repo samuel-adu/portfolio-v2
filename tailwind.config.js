@@ -12,9 +12,27 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+    },
     extend: {
+      colors: {
+        primary: {
+          100: "#5FB4A2",
+          400: "#203A4C",
+          700: "#33323D",
+        },
+        neutral: {
+          100: "#FAFAFA",
+          400: "#EAEAEB",
+          700: "#D7D7D7",
+        },
+        error: "#F43030",
+      },
       fontFamily: {
-        sans: ["var(--font-publicSans)", ...fontFamily.sans],
+        body: ["var(--font-public-sans)", ...fontFamily.sans],
+        heading: ["var(--font-ibarra-real-nova)", ...fontFamily.serif],
       },
     },
   },
