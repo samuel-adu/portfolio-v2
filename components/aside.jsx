@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export default function Aside() {
   return (
     <aside>
       <h2>Interested in doing a project together?</h2>
-      <a href="">Contact Me</a>
+      <Link href="">Contact Me</Link>
     </aside>
   );
 }

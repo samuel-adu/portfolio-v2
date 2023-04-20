@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import styles from "@/styles/Home.module.css";
+import utilStyles from "../styles/utils.module.css";
 import Portfolio from "../components/portfolio";
 import Contact from "../components/contact";
 
@@ -16,16 +18,12 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <div className="mb-12 sm:grid sm:grid-cols-2 sm:gap-8">
+      <div className="sm:grid sm:grid-cols-2 sm:gap-8">
         <div>
-          <h1 className="mb-0 font-heading text-5xl font-bold text-primary-700 sm:text-6xl">
-            Samuel Adu
-          </h1>
-          <span className="font-body text-xs font-thin uppercase tracking-widest text-primary-100">
-            frontend developer
-          </span>
+          <h1 className="text-5xl sm:text-6xl mb-1">Samuel Adu</h1>
+          <span className="font-thin">frontend developer</span>
 
-          <div className="relative h-72 w-full">
+          <div className="relative w-full h-72">
             <Image
               src="/images/illustration-mobile.avif"
               alt="developer sitting at a desk"
@@ -40,30 +38,28 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex justify-center gap-4 sm:justify-start">
+          <div className="flex gap-4 justify-center sm:justify-start">
             <a
               href="#portfolio"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-400 py-4 text-center font-body text-xs uppercase tracking-widest text-primary-700 hover:bg-primary-700 hover:text-neutral-100"
+              className={`${utilStyles.btn} ${utilStyles.btnSecondary} w-36`}
             >
               Go To Portfolio
             </a>
             <a
               href="#contact"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-400 bg-primary-400 py-4 text-center font-body  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-100 hover:bg-primary-100"
+              className={`${utilStyles.btn} ${utilStyles.btnPrimary} w-36`}
             >
               Contact me
             </a>
           </div>
         </div>
 
-        <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+        <hr className={`${utilStyles.hr} sm:hidden`} />
 
         <div>
-          <h2 className="font-heading text-4xl font-bold sm:text-left">
-            About Me
-          </h2>
+          <h2 className="text-4xl text-center sm:text-left">About Me</h2>
 
-          <p>
+          <p className="text-base">
             I’m a front-end developer looking for a new role in an exciting
             company. I focus on writing accessible HTML, using modern CSS
             practices and writing clean JavaScript. When writing JavaScript
@@ -81,7 +77,7 @@ export default function Home() {
         </div>
       </div>
 
-      <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+      <hr className={`${utilStyles.hr} sm:hidden`} />
 
       <Portfolio />
 
