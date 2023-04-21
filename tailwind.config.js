@@ -31,8 +31,7 @@ module.exports = {
         error: "#F43030",
       },
       fontFamily: {
-        body: ["var(--font-public-sans)", ...fontFamily.sans],
-        heading: ["var(--font-ibarra-real-nova)", ...fontFamily.serif],
+        primary: ["var(--font-public-sans)", ...fontFamily.sans],
       },
     },
   },

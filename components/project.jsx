@@ -14,9 +14,7 @@ export default function Project(props) {
       </div>
 
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="font-heading text-2xl font-bold capitalize">
-          {props.project.title}
-        </h3>
+        <h3 className="text-2xl capitalize">{props.project.title}</h3>
         <p className="">{props.project.description}</p>
 
         <div className="mt-auto">

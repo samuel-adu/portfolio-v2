@@ -7,16 +7,9 @@ const publicSans = Public_Sans({
   variable: "--font-public-sans",
 });
 
-const ibarraRealNova = Ibarra_Real_Nova({
-  subsets: ["latin"],
-  variable: "--font-ibarra-real-nova",
-});
-
 export default function App({ Component, pageProps }) {
   return (
-    <div
-      className={`${publicSans.variable} ${ibarraRealNova.variable} font-body text-primary-700`}
-    >
+    <div className={`${publicSans.variable} font-primary text-primary-700`}>
       <Layout>
         <Component {...pageProps} />
       </Layout>
