@@ -3,9 +3,7 @@ export default function Contact() {
   return (
     <div id="contact" className="mx-auto sm:w-1/2">
       <div>
-        <h2 className="text-center font-heading text-4xl font-bold">
-          Get in Touch
-        </h2>
+        <h2 className="text-center text-4xl">Get in Touch</h2>
         <p className="text-center">
           Do you have a job opportunity or a project I can be a part of? Feel
           free to reach me at{" "}
@@ -23,7 +21,7 @@ export default function Contact() {
             Name
           </label>
           <input
-            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-body placeholder:text-xs"
+            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             name="fullName"
             placeholder="Jane Appleseed"
@@ -33,7 +31,7 @@ export default function Contact() {
             Email Address
           </label>
           <input
-            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-body placeholder:text-xs"
+            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             name="email"
             placeholder="email@example.com"
@@ -43,7 +41,7 @@ export default function Contact() {
             Message
           </label>
           <textarea
-            className="mb-6 block h-24 w-full resize-none rounded bg-neutral-400 px-6 py-2 placeholder:font-body placeholder:text-xs"
+            className="mb-6 block h-24 w-full resize-none rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             placeholder="How can I help?"
           />
