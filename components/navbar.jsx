@@ -10,11 +10,11 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="mb-8 border-b border-solid border-neutral-400 dark:border-gray-700">
+    <nav className="mb-8 border-b border-solid border-neutral-200 dark:border-neutral-700">
       <div className="container">
         <div className="flex items-center py-8">
           <Link href="/" className="mr-1">
-            <Image src="/images/logo.svg" alt="" width={60} height={30} />
+            <Image src="/icons/logo.svg" alt="" width={60} height={30} />
           </Link>
           <span className="mr-auto font-mono">theadusamuel</span>
 
@@ -44,7 +44,7 @@ export default function Navbar() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src="/images/icons/frontend-mentor.svg"
+                  src="/icons/frontend-mentor.svg"
                   alt=""
                   width={24}
                   height={24}

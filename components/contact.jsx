@@ -7,13 +7,13 @@ export default function Contact() {
         <p className="text-center">
           Do you have a job opportunity or a project I can be a part of? Feel
           free to reach me at{" "}
-          <span className="text-primary-100">theadusamuel@gmail.com</span>, you
+          <span className="text-primary-500">theadusamuel@gmail.com</span>, you
           may also leave me a message using the form below and I'll get back to
           you.
         </p>
       </div>
 
-      <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
+      <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
       <div>
         <form className="flex flex-col">
@@ -21,7 +21,7 @@ export default function Contact() {
             Name
           </label>
           <input
-            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
+            className="mb-6 block h-12 w-full rounded bg-neutral-200 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             name="fullName"
             placeholder="Jane Appleseed"
@@ -31,7 +31,7 @@ export default function Contact() {
             Email Address
           </label>
           <input
-            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
+            className="mb-6 block h-12 w-full rounded bg-neutral-200 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             name="email"
             placeholder="email@example.com"
@@ -41,13 +41,13 @@ export default function Contact() {
             Message
           </label>
           <textarea
-            className="mb-6 block h-24 w-full resize-none rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
+            className="mb-6 block h-24 w-full resize-none rounded bg-neutral-200 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             placeholder="How can I help?"
           />
 
           <button
-            className="pointer mb-6 inline-block h-12 w-full rounded bg-primary-100 px-6 py-2 text-xs uppercase tracking-widest text-neutral-100 hover:bg-primary-400 md:ml-auto md:w-48"
+            className="pointer mb-6 inline-block h-12 w-full rounded bg-primary-500 px-6 py-2 text-xs uppercase tracking-widest text-neutral-100 hover:bg-primary-700 md:ml-auto md:w-48"
             type="submit"
           >
             Send Message

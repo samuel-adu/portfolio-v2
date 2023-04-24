@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="mt-10 bg-neutral-400 text-primary-700 dark:bg-gray-900 dark:text-neutral-100">
+    <footer className="mt-10 bg-neutral-200 dark:bg-neutral-900 dark:text-neutral-100">
       <div className="container">
         <div className="py-14 sm:flex sm:flex-row-reverse sm:justify-between sm:p-0">
           <ul className="my-4 items-center gap-8 text-center sm:order-2 sm:flex">
@@ -43,7 +43,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src="/images/icons/frontend-mentor.png"
+                  src="/icons/frontend-mentor.png"
                   alt=""
                   width={24}
                   height={24}
@@ -53,12 +53,7 @@ export default function Footer() {
           </ul>
 
           <div className="flex items-center justify-center gap-2 sm:order-3">
-            <Image
-              src="/images/icons/logo-white.svg"
-              alt=""
-              width={40}
-              height={20}
-            />
+            <Image src="/icons/logo.svg" alt="" width={40} height={20} />
             <small className="text-xs">
               Copyright &copy; {new Date().getFullYear()} Samuel Adu
             </small>
