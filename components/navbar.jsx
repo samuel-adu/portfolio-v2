@@ -10,7 +10,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="mb-8 border-b border-solid border-neutral-400">
+    <nav className="mb-8 border-b border-solid border-neutral-400 dark:border-gray-700">
       <div className="container">
         <div className="flex items-center py-8">
           <Link href="/" className="mr-1">
