@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="mt-10 bg-primary-700 text-neutral-100">
+    <footer className="mt-10 bg-neutral-400 text-primary-700 dark:bg-gray-900 dark:text-neutral-100">
       <div className="container">
         <div className="py-14 sm:flex sm:flex-row-reverse sm:justify-between sm:p-0">
           <ul className="my-4 items-center gap-8 text-center sm:order-2 sm:flex">
@@ -60,7 +60,7 @@ export default function Footer() {
               height={20}
             />
             <small className="text-xs">
-              Copyright &copy; {new Date().getFullYear()} Samuel Adu.
+              Copyright &copy; {new Date().getFullYear()} Samuel Adu
             </small>
           </div>
         </div>

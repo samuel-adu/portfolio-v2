@@ -3,9 +3,7 @@ export default function Contact() {
   return (
     <div id="contact" className="mx-auto sm:w-1/2">
       <div>
-        <h2 className="text-center font-heading text-4xl font-bold">
-          Get in Touch
-        </h2>
+        <h2 className="text-center text-4xl font-semibold">Get in Touch</h2>
         <p className="text-center">
           Do you have a job opportunity or a project I can be a part of? Feel
           free to reach me at{" "}
@@ -15,7 +13,7 @@ export default function Contact() {
         </p>
       </div>
 
-      <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+      <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
 
       <div>
         <form className="flex flex-col">
@@ -23,7 +21,7 @@ export default function Contact() {
             Name
           </label>
           <input
-            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-body placeholder:text-xs"
+            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             name="fullName"
             placeholder="Jane Appleseed"
@@ -33,7 +31,7 @@ export default function Contact() {
             Email Address
           </label>
           <input
-            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-body placeholder:text-xs"
+            className="mb-6 block h-12 w-full rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             name="email"
             placeholder="email@example.com"
@@ -43,13 +41,13 @@ export default function Contact() {
             Message
           </label>
           <textarea
-            className="mb-6 block h-24 w-full resize-none rounded bg-neutral-400 px-6 py-2 placeholder:font-body placeholder:text-xs"
+            className="mb-6 block h-24 w-full resize-none rounded bg-neutral-400 px-6 py-2 placeholder:font-primary placeholder:text-xs"
             type="text"
             placeholder="How can I help?"
           />
 
           <button
-            className="pointer mb-6 inline-block h-12 w-full rounded bg-primary-400 px-6 py-2 text-xs uppercase tracking-widest text-neutral-100 hover:bg-primary-100 md:ml-auto md:w-48"
+            className="pointer mb-6 inline-block h-12 w-full rounded bg-primary-100 px-6 py-2 text-xs uppercase tracking-widest text-neutral-100 hover:bg-primary-400 md:ml-auto md:w-48"
             type="submit"
           >
             Send Message

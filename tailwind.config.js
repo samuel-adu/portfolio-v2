@@ -7,10 +7,8 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-
-    // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     container: {
       center: true,
@@ -31,8 +29,7 @@ module.exports = {
         error: "#F43030",
       },
       fontFamily: {
-        body: ["var(--font-public-sans)", ...fontFamily.sans],
-        heading: ["var(--font-ibarra-real-nova)", ...fontFamily.serif],
+        primary: ["var(--font-public-sans)", ...fontFamily.sans],
       },
     },
   },

@@ -18,14 +18,14 @@ export default function Home() {
 
       <div className="mb-12 sm:grid sm:grid-cols-2 sm:gap-8">
         <div>
-          <h1 className="mb-0 font-heading text-5xl font-bold text-primary-700 sm:text-6xl">
+          <h1 className="mb-0 text-5xl font-semibold sm:text-6xl">
             Samuel Adu
           </h1>
-          <span className="font-body text-xs font-thin uppercase tracking-widest text-primary-100">
+          <span className="text-xs font-light uppercase tracking-widest text-primary-400 dark:text-neutral-300">
             frontend developer
           </span>
 
-          <div className="relative h-72 w-full">
+          <div className="relative my-4 h-72 w-full">
             <Image
               src="/images/illustration-mobile.avif"
               alt="developer sitting at a desk"
@@ -43,45 +43,40 @@ export default function Home() {
           <div className="flex justify-center gap-4 sm:justify-start">
             <a
               href="#portfolio"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-400 py-4 text-center font-body text-xs uppercase tracking-widest text-primary-700 hover:bg-primary-700 hover:text-neutral-100"
+              className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-700 py-4 text-center text-xs uppercase tracking-widest text-primary-700 hover:bg-neutral-400 dark:bg-gray-800 dark:text-neutral-100 dark:hover:bg-gray-700"
             >
               Go To Portfolio
             </a>
             <a
               href="#contact"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-400 bg-primary-400 py-4 text-center font-body  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-100 hover:bg-primary-100"
+              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-100 bg-primary-100 py-4 text-center  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-400 hover:bg-primary-400"
             >
               Contact me
             </a>
           </div>
         </div>
 
-        <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+        <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
 
         <div>
-          <h2 className="font-heading text-4xl font-bold sm:text-left">
-            About Me
-          </h2>
+          <h2 className="text-4xl font-semibold sm:text-left">About Me</h2>
 
           <p>
-            I’m a front-end developer looking for a new role in an exciting
-            company. I focus on writing accessible HTML, using modern CSS
-            practices and writing clean JavaScript. When writing JavaScript
-            code, I mostly use React, but I can adapt to whatever tools are
-            required.
+            I’m a front-end developer focused on writing accessible HTML, using
+            modern CSS practices and writing clean JavaScript. When writing
+            JavaScript code, I mostly use React, but I can adapt to whatever
+            tools are required.
           </p>
 
           <p>
             I’m based in Lagos, Nigeria, I’m happy working remotely and have
             experience in remote teams. When I’m not coding, you’ll find me
-            outdoors.
+            outdoors. I’d love you to check out my work.
           </p>
-
-          <p>I’d love you to check out my work.</p>
         </div>
       </div>
 
-      <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+      <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
 
       <Portfolio />
 

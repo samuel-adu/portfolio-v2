@@ -1,9 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 
 export default function Navbar() {
+  const { theme, setTheme } = useTheme();
+
+  function toggleTheme() {
+    setTheme(theme === "light" ? "dark" : "light");
+  }
+
   return (
-    <nav className="mb-8 border-b border-solid border-neutral-400">
+    <nav className="mb-8 border-b border-solid border-neutral-400 dark:border-gray-700">
       <div className="container">
         <div className="flex items-center py-8">
           <Link href="/" className="mr-1">
@@ -46,8 +53,13 @@ export default function Navbar() {
             </li>
           </ul>
 
-          {/* <i className="fa-regular fa-moon text-2xl"></i> */}
-          <i className="fa-solid fa-sun text-2xl"></i>
+          <button onClick={toggleTheme} type="button">
+            {theme === "light" ? (
+              <i className="fa-regular fa-moon text-2xl"></i>
+            ) : (
+              <i className="fa-solid fa-sun text-2xl"></i>
+            )}
+          </button>
         </div>
       </div>
     </nav>
