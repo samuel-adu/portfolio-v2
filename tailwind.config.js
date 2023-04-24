@@ -1,5 +1,6 @@
 // tailwind.config.js
 const { fontFamily } = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,17 +17,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: {
-          100: "#5FB4A2",
-          400: "#203A4C",
-          700: "#33323D",
-        },
-        neutral: {
-          100: "#FAFAFA",
-          400: "#EAEAEB",
-          700: "#D7D7D7",
-        },
-        error: "#F43030",
+        primary: colors.teal,
+        neutral: colors.gray,
       },
       fontFamily: {
         primary: ["var(--font-public-sans)", ...fontFamily.sans],

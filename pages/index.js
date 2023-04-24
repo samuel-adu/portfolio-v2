@@ -21,7 +21,7 @@ export default function Home() {
           <h1 className="mb-0 text-5xl font-semibold sm:text-6xl">
             Samuel Adu
           </h1>
-          <span className="text-xs font-light uppercase tracking-widest text-primary-400 dark:text-neutral-300">
+          <span className="text-xs font-light uppercase tracking-widest text-primary-400">
             frontend developer
           </span>
 
@@ -43,20 +43,20 @@ export default function Home() {
           <div className="flex justify-center gap-4 sm:justify-start">
             <a
               href="#portfolio"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-700 py-4 text-center text-xs uppercase tracking-widest text-primary-700 hover:bg-neutral-400 dark:bg-gray-800 dark:text-neutral-100 dark:hover:bg-gray-700"
+              className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-400 py-4 text-center text-xs uppercase tracking-widest text-neutral-700 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700"
             >
               Go To Portfolio
             </a>
             <a
               href="#contact"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-100 bg-primary-100 py-4 text-center  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-400 hover:bg-primary-400"
+              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-500 bg-primary-500 py-4 text-center  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-700 hover:bg-primary-700"
             >
               Contact me
             </a>
           </div>
         </div>
 
-        <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
+        <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
         <div>
           <h2 className="text-4xl font-semibold sm:text-left">About Me</h2>
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </div>
 
-      <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
+      <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
       <Portfolio />
 
