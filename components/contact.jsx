@@ -13,7 +13,7 @@ export default function Contact() {
         </p>
       </div>
 
-      <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+      <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
 
       <div>
         <form className="flex flex-col">

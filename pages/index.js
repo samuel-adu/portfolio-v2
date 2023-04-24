@@ -21,11 +21,11 @@ export default function Home() {
           <h1 className="mb-0 text-5xl font-semibold sm:text-6xl">
             Samuel Adu
           </h1>
-          <span className="text-xs font-light uppercase tracking-widest text-primary-400">
+          <span className="text-xs font-light uppercase tracking-widest text-primary-400 dark:text-neutral-300">
             frontend developer
           </span>
 
-          <div className="relative h-72 w-full">
+          <div className="relative my-4 h-72 w-full">
             <Image
               src="/images/illustration-mobile.avif"
               alt="developer sitting at a desk"
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="flex justify-center gap-4 sm:justify-start">
             <a
               href="#portfolio"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-400 py-4 text-center text-xs uppercase tracking-widest text-primary-700 hover:bg-neutral-400"
+              className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-700 py-4 text-center text-xs uppercase tracking-widest text-primary-700 hover:bg-neutral-400 dark:bg-gray-800 dark:text-neutral-100 dark:hover:bg-gray-700"
             >
               Go To Portfolio
             </a>
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
 
-        <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+        <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
 
         <div>
           <h2 className="text-4xl font-semibold sm:text-left">About Me</h2>
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </div>
 
-      <hr className="my-6 border-t border-solid border-neutral-400 sm:hidden" />
+      <hr className="my-6 border-t border-solid border-neutral-400 dark:border-gray-700 sm:hidden" />
 
       <Portfolio />
 
