@@ -1,6 +1,7 @@
-import { Public_Sans, Ibarra_Real_Nova } from "next/font/google";
+import { Public_Sans } from "next/font/google";
 import "@/styles/globals.css";
 import Layout from "../components/layout";
+import { ThemeProvider } from "next-themes";
 
 const publicSans = Public_Sans({
   subsets: ["latin"],
@@ -9,10 +10,12 @@ const publicSans = Public_Sans({
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className={`${publicSans.variable} font-primary text-primary-700`}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </div>
+    <ThemeProvider attribute="class">
+      <div className={`${publicSans.variable} font-primary`}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </div>
+    </ThemeProvider>
   );
 }
