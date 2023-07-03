@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Contact() {
   return (
-    <div id="contact" className="mx-auto sm:w-1/2">
+    <>
       <div>
-        <h2 className="text-center text-4xl font-semibold">Get in Touch</h2>
+        <h2 className="text-center text-3xl font-semibold">Get in Touch</h2>
         <p className="text-center">
           Do you have a job opportunity or a project I can be a part of? Feel
           free to reach me at{" "}
@@ -54,6 +54,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </div>
+    </>
   );
 }

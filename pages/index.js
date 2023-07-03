@@ -45,7 +45,7 @@ export default function Home() {
               href="#portfolio"
               className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-400 py-4 text-center text-xs uppercase tracking-widest text-neutral-700 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700"
             >
-              Go To Portfolio
+              See my work
             </a>
             <a
               href="#contact"
@@ -59,7 +59,7 @@ export default function Home() {
         <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
         <div>
-          <h2 className="text-4xl font-semibold sm:text-left">About Me</h2>
+          <h2 className="text-3xl font-semibold sm:text-left">About Me</h2>
 
           <p>
             I’m a front-end developer focused on writing accessible HTML, using
@@ -78,9 +78,13 @@ export default function Home() {
 
       <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
-      <Portfolio />
+      <section id="portfolio">
+        <Portfolio />
+      </section>
 
-      <Contact />
+      <section id="contact" className="mx-auto sm:w-1/2">
+        <Contact />
+      </section>
     </>
   );
 }
