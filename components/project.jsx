@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Project(props) {
   return (
-    <div className="flex flex-col border border-solid border-neutral-200 dark:border-neutral-700">
+    <div className="flex flex-col">
       <div className="relative flex-1">
         <div className="relative h-72 w-full">
           <Image
