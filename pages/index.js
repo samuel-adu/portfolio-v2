@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import Image from "next/image";
-import Portfolio from "../components/portfolio";
-import Contact from "../components/contact";
+import Project from "../components/project";
+import { projects } from "../data.js";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <div className="mb-12 sm:grid sm:grid-cols-2 sm:gap-8">
+      <section className="mb-12 sm:grid sm:grid-cols-2 sm:gap-8 lg:gap-12">
         <div>
           <h1 className="mb-0 text-5xl font-semibold sm:text-6xl">
             Samuel Adu
@@ -45,7 +46,7 @@ export default function Home() {
               href="#portfolio"
               className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-400 py-4 text-center text-xs uppercase tracking-widest text-neutral-700 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700"
             >
-              Go To Portfolio
+              See my work
             </a>
             <a
               href="#contact"
@@ -58,8 +59,8 @@ export default function Home() {
 
         <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
-        <div>
-          <h2 className="text-4xl font-semibold sm:text-left">About Me</h2>
+        <div className="flex-col justify-center lg:flex lg:w-3/4">
+          <h2 className="text-3xl font-semibold sm:text-left">About Me</h2>
 
           <p>
             I’m a front-end developer focused on writing accessible HTML, using
@@ -74,13 +75,38 @@ export default function Home() {
             outdoors. I’d love you to check out my work.
           </p>
         </div>
-      </div>
+      </section>
 
       <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
-      <Portfolio />
+      <section id="portfolio">
+        <h2 className="mb-8 text-3xl font-semibold">Featured Projects</h2>
+        <div className="mb-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+          {projects.map((project) => {
+            return <Project key={project.id} project={project} />;
+          })}
+        </div>
+      </section>
 
-      <Contact />
+      <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
+
+      <section id="contact" className="mx-auto sm:w-1/2">
+        <h2 className="text-center text-3xl font-semibold">Get in Touch</h2>
+        <div className="text-center">
+          <p className="text-center">
+            Do you have a job opportunity or a project I can be a part of? Feel
+            free to leave me a message and I'll get back to you as soon as
+            possible.
+          </p>
+
+          <a
+            href="mailto:theadusamuel@gmail.com"
+            className="pointer my-6 inline-block rounded bg-primary-500 px-6 py-4 text-center text-xs capitalize tracking-widest text-neutral-100 hover:bg-primary-700"
+          >
+            Send Email
+          </a>
+        </div>
+      </section>
     </>
   );
 }
