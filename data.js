@@ -37,7 +37,7 @@ export const projects = [
 
   {
     id: "05",
-    title: "interactive card details form",
+    title: "card details form",
     description:
       "This fun project was an excellent way to practice DOM manipulation and for the form validation I used react-hook-form library.",
     img: "interactive-card-desktop.jpeg",
