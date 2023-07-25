@@ -49,10 +49,11 @@ export default function Home() {
               See my work
             </a>
             <a
-              href="#contact"
+              href="../resume.pdf"
+              target="_blank"
               className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-500 bg-primary-500 py-4 text-center  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-700 hover:bg-primary-700"
             >
-              Contact me
+              Résumé
             </a>
           </div>
         </div>
