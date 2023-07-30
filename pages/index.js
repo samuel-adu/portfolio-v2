@@ -75,6 +75,40 @@ export default function Home() {
             experience in remote teams. When I’m not coding, you’ll find me
             outdoors. I’d love you to check out my work.
           </p>
+
+          <h2 className="text-3xl font-semibold sm:text-left">Skills</h2>
+          <p>Here are a few technologies I’ve been working with recently:</p>
+          <ul className="flex flex-wrap gap-1">
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              React.js
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              Next.js
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              JavaScript
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              HTML
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">CSS</li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              TailwindCSS
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">Git</li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              GitHub
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              Vercel
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              Figma
+            </li>
+            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+              Responsive Web Design
+            </li>
+          </ul>
         </div>
       </section>
 
