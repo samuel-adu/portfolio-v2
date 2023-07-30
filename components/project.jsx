@@ -23,7 +23,7 @@ export default function Project({ project }) {
         />
       </div> */}
 
-      <div className="flex flex-1 flex-col bg-neutral-50 p-6 dark:bg-neutral-800">
+      <div className="flex flex-1 flex-col bg-neutral-50 p-6 dark:bg-neutral-700">
         <h3 className="text-xl font-semibold capitalize hover:text-primary-500">
           <a href={project.liveUrl} target="_blank">
             {project.title}
