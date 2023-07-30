@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="gap- flex items-center justify-center gap-4 py-8">
           <Image src="/icons/logo.svg" alt="" width={40} height={20} />
           <small className="text-xs">
-            Copyright &copy; {new Date().getFullYear()} Samuel Adu
+            Designed and Built by Samuel Adu &copy; {new Date().getFullYear()}
           </small>
         </div>
       </div>
