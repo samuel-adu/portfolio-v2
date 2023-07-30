@@ -79,34 +79,38 @@ export default function Home() {
           <h2 className="text-3xl font-semibold sm:text-left">Skills</h2>
           <p>Here are a few technologies I’ve been working with recently:</p>
           <ul className="flex flex-wrap gap-1">
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               React.js
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               Next.js
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               JavaScript
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               HTML
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">CSS</li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
+              CSS
+            </li>
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               TailwindCSS
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">Git</li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
+              Git
+            </li>
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               GitHub
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               Vercel
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               Figma
             </li>
-            <li className="bg-primary-100 px-2 py-1 text-xs font-light">
-              Responsive Web Design
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
+              Bootstrap
             </li>
           </ul>
         </div>
