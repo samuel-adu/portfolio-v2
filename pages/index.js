@@ -46,7 +46,7 @@ export default function Home() {
               href="#portfolio"
               className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-400 py-4 text-center text-xs uppercase tracking-widest text-neutral-700 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700"
             >
-              See my work
+              Portfolio
             </a>
             <a
               href="../resume.pdf"
@@ -102,9 +102,9 @@ export default function Home() {
 
           <a
             href="mailto:theadusamuel@gmail.com"
-            className="pointer my-6 inline-block rounded bg-primary-500 px-6 py-4 text-center text-xs capitalize tracking-widest text-neutral-100 hover:bg-primary-700"
+            className="pointer my-4 inline-block rounded bg-primary-500 px-6 py-4 text-center text-xs uppercase tracking-widest text-neutral-100 hover:bg-primary-700"
           >
-            Send Email
+            contact me
           </a>
         </div>
       </section>

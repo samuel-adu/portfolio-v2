@@ -7,6 +7,7 @@ export const projects = [
     img: "todo-app-desktop.jpeg",
     github: "https://github.com/theadusamuel/Todo-App",
     liveUrl: "https://todo-app-lilac-three.vercel.app",
+    tools: ["React", "context-api"],
   },
   {
     id: "02",
@@ -16,6 +17,7 @@ export const projects = [
     img: "space-tourism-desktop.jpeg",
     github: "https://github.com/theadusamuel/space-tourism-website",
     liveUrl: "http://space-tourism-website-beta.vercel.app/",
+    tools: ["react-router", "react"],
   },
   {
     id: "03",
@@ -25,6 +27,7 @@ export const projects = [
     img: "advice-app-desktop.jpeg",
     github: "https://github.com/theadusamuel/advice-generator-app",
     liveUrl: "http://advice-generator-app-dun.vercel.app/",
+    tools: ["React", "API"],
   },
   {
     id: "04",
@@ -33,6 +36,7 @@ export const projects = [
     img: "tenzies-game-screenshot.png",
     github: "https://github.com/theadusamuel/tenzies-game",
     liveUrl: "https://tenzies-game-beryl.vercel.app",
+    tools: ["javascript"],
   },
 
   {
@@ -43,6 +47,7 @@ export const projects = [
     img: "interactive-card-desktop.jpeg",
     github: "https://github.com/theadusamuel/interactive-card-details-form",
     liveUrl: "https://interactive-card-details-form-silk.vercel.app",
+    tools: ["react-hook-form"],
   },
 
   {
@@ -53,5 +58,6 @@ export const projects = [
     img: "insure-landing-page-desktop.jpeg",
     github: "https://github.com/theadusamuel/Insure-landing-page",
     liveUrl: "https://insure-landing-page-nine-drab.vercel.app",
+    tools: ["html", "css"],
   },
 ];
