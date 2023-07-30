@@ -77,6 +77,7 @@ export default function Home() {
           </p>
 
           <h2 className="text-3xl font-semibold sm:text-left">Skills</h2>
+          <p>Here are a few technologies I’ve been working with recently:</p>
           <ul className="flex flex-wrap gap-1">
             <li className="bg-primary-100 px-2 py-1 text-xs font-light">
               React.js
