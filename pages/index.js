@@ -110,7 +110,10 @@ export default function Home() {
               Figma
             </li>
             <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
-              Bootstrap
+              BEM
+            </li>
+            <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
+              Responsive Web Design
             </li>
           </ul>
         </div>
