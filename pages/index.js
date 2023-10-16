@@ -70,12 +70,6 @@ export default function Home() {
             tools are required.
           </p>
 
-          <p>
-            I’m based in Lagos, Nigeria, I’m happy working remotely and have
-            experience in remote teams. When I’m not coding, you’ll find me
-            outdoors. I’d love you to check out my work.
-          </p>
-
           <h2 className="text-3xl font-semibold sm:text-left">Skills</h2>
           <p>Here are a few technologies I’ve been working with recently:</p>
           <ul className="flex flex-wrap gap-1">
