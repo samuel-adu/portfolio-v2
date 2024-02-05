@@ -16,12 +16,12 @@ export default function Navbar() {
           <Link href="/" className="mr-1">
             <Image src="/icons/logo.svg" alt="" width={60} height={30} />
           </Link>
-          <span className="mr-auto font-mono">theadusamuel</span>
+          <span className="mr-auto font-mono">thesamueladu</span>
 
           <ul className="mx-4 hidden items-center gap-4 sm:flex">
             <li>
               <a
-                href="https://github.com/theadusamuel"
+                href="https://github.com/thesamueladu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -30,25 +30,11 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/theadusamuel"
+                href="https://www.linkedin.com/in/thesamueladu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-linkedin text-2xl"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.frontendmentor.io/profile/theadusamuel"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/icons/frontend-mentor.svg"
-                  alt=""
-                  width={24}
-                  height={24}
-                />
               </a>
             </li>
           </ul>
