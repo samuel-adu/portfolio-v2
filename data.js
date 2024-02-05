@@ -5,7 +5,7 @@ export const projects = [
     description:
       "The classic todo app with a few twists! This app includes a dark/light theme toggle and filter buttons.",
     img: "todo-app-desktop.jpeg",
-    github: "https://github.com/theadusamuel/Todo-App",
+    github: "https://github.com/thesamueladu/Todo-App",
     liveUrl: "https://todo-app-lilac-three.vercel.app",
     tools: ["React", "context-api"],
   },
@@ -15,7 +15,7 @@ export const projects = [
     description:
       "This is a multi-page fully responsive website built with React and the different page data is fetched from a local JSON file.",
     img: "space-tourism-desktop.jpeg",
-    github: "https://github.com/theadusamuel/space-tourism-website",
+    github: "https://github.com/thesamueladu/space-tourism-website",
     liveUrl: "http://space-tourism-website-beta.vercel.app/",
     tools: ["react-router", "react"],
   },
@@ -25,7 +25,7 @@ export const projects = [
     description:
       "This app generates random quotes of advice from the Advice Slip API.",
     img: "advice-app-desktop.jpeg",
-    github: "https://github.com/theadusamuel/advice-generator-app",
+    github: "https://github.com/thesamueladu/advice-generator-app",
     liveUrl: "http://advice-generator-app-dun.vercel.app/",
     tools: ["React", "API"],
   },
