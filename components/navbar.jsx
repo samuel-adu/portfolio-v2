@@ -21,7 +21,7 @@ export default function Navbar() {
           <ul className="mx-4 hidden items-center gap-4 sm:flex">
             <li>
               <a
-                href="https://github.com/thesamueladu"
+                href="https://github.com/samuel-adu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -30,7 +30,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/thesamueladu"
+                href="https://www.linkedin.com/in/samuel-oa"
                 target="_blank"
                 rel="noopener noreferrer"
               >
