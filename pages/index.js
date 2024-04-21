@@ -51,7 +51,7 @@ export default function Home() {
             <a
               href="../resume.pdf"
               target="_blank"
-              className="my-4 cursor-pointer rounded border border-solid border-primary-500 px-6 py-4 text-center text-base capitalize tracking-widest text-primary-500 hover:bg-primary-400 hover:text-neutral-100 dark:border-primary-600 dark:bg-neutral-800 dark:text-primary-600 dark:hover:border-primary-700 dark:hover:bg-primary-700 dark:hover:text-neutral-100"
+              className="my-4 cursor-pointer rounded border border-solid border-neutral-400 px-6 py-4 text-center text-base capitalize tracking-widest text-neutral-700 hover:border-primary-400 hover:bg-primary-400 hover:text-neutral-50 dark:border-neutral-500 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:border-primary-700 dark:hover:bg-primary-700 dark:hover:text-neutral-100"
             >
               Résumé
             </a>

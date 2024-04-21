@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Project({ project }) {
   return (
-    <div className="flex flex-col rounded border p-4 transition-all duration-150 ease-out hover:scale-105 sm:p-8">
-      <div className="relative flex-1 rounded border">
+    <div className="flex flex-col rounded border p-4 transition-all duration-150 ease-out hover:scale-105 dark:border-neutral-700 sm:p-8">
+      <div className="relative flex-1">
         <div className="relative h-72 w-full">
           <Link href={project.liveUrl} target="_blank">
             <Image src={`/images/${project.img}`} alt="project preview" fill />
@@ -26,7 +26,7 @@ export default function Project({ project }) {
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="mr-2 inline-block rounded border border-primary-500 px-2 py-2 text-base capitalize text-primary-500 hover:border-primary-400 hover:bg-primary-400 hover:text-neutral-50"
+            className="mr-2 inline-block rounded border border-neutral-400 px-2 py-2 text-base capitalize text-neutral-700 hover:border-primary-400 hover:bg-primary-400 hover:text-neutral-50 dark:text-neutral-50"
           >
             <i className="fa-solid fa-brands fa-github fa-lg mr-1"></i>
             view code
@@ -36,7 +36,7 @@ export default function Project({ project }) {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded border border-primary-500 px-2 py-2 text-base capitalize text-primary-500 hover:border-primary-400 hover:bg-primary-400 hover:text-neutral-50"
+            className="inline-block rounded border border-neutral-400 px-2 py-2 text-base capitalize text-neutral-700  hover:border-primary-400 hover:bg-primary-400 hover:text-neutral-50 dark:text-neutral-50"
           >
             <i className="fa-solid fa-up-right-from-square fa-lg mr-1"></i>
             view project
