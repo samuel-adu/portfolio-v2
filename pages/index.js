@@ -44,14 +44,14 @@ export default function Home() {
           <div className="flex justify-center gap-4 sm:justify-start">
             <a
               href="#portfolio"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-neutral-400 py-4 text-center text-xs uppercase tracking-widest text-neutral-700 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700"
+              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-500 bg-primary-500 py-4 text-center  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-400 hover:bg-primary-400 dark:border-primary-600 dark:bg-primary-600 dark:hover:border-primary-700 dark:hover:bg-primary-700"
             >
-              Portfolio
+              Go to projects
             </a>
             <a
               href="../resume.pdf"
               target="_blank"
-              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-500 bg-primary-500 py-4 text-center  text-xs uppercase tracking-widest text-neutral-100 hover:border-primary-700 hover:bg-primary-700"
+              className="my-4 w-40 cursor-pointer rounded border border-solid border-primary-500 py-4 text-center text-xs uppercase tracking-widest text-primary-500 hover:bg-primary-400 hover:text-neutral-100 dark:border-primary-600 dark:bg-neutral-800 dark:text-primary-600 dark:hover:border-primary-700 dark:hover:bg-primary-700 dark:hover:text-neutral-100"
             >
               Résumé
             </a>
@@ -60,18 +60,16 @@ export default function Home() {
 
         <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
-        <div className="flex-col justify-center lg:flex lg:w-3/4">
-          <h2 className="text-3xl font-semibold sm:text-left">About Me</h2>
+        <div className="flex-col justify-center lg:flex lg:w-full">
+          <h2 className="text-3xl font-semibold sm:text-left">About</h2>
 
           <p>
             I’m a front-end developer focused on writing accessible HTML, using
             modern CSS practices and writing clean JavaScript. When writing
-            JavaScript code, I mostly use React, but I can adapt to whatever
-            tools are required.
+            JavaScript code, I mostly use React.
           </p>
 
-          <h2 className="text-3xl font-semibold sm:text-left">Skills</h2>
-          <p>Here are a few technologies I’ve been working with recently:</p>
+          <h2 className="text-3xl font-semibold sm:text-left">Tech Stack</h2>
           <ul className="flex flex-wrap gap-1">
             <li className="bg-neutral-200 px-2 py-1 text-xs font-light dark:bg-neutral-700">
               React.js
@@ -115,7 +113,7 @@ export default function Home() {
 
       <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
-      <section id="portfolio">
+      <section id="portfolio" className="my-16">
         <h2 className="mb-8 text-3xl font-semibold">Featured Projects</h2>
         <div className="mb-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
           {projects.map((project) => {
@@ -126,9 +124,9 @@ export default function Home() {
 
       <hr className="my-6 border-t border-solid border-neutral-200 dark:border-neutral-700 sm:hidden" />
 
-      <section id="contact" className="mx-auto sm:w-1/2">
+      <section id="contact" className="my-8 py-8 ">
         <h2 className="text-center text-3xl font-semibold">Get in Touch</h2>
-        <div className="text-center">
+        <div className="mx-auto text-center sm:w-1/2">
           <p className="text-center">
             Do you have a job opportunity or a project I can be a part of? Feel
             free to leave me a message and I'll get back to you as soon as
@@ -137,7 +135,7 @@ export default function Home() {
 
           <a
             href="mailto:theadusamuel@gmail.com"
-            className="pointer my-4 inline-block rounded bg-primary-500 px-6 py-4 text-center text-xs uppercase tracking-widest text-neutral-100 hover:bg-primary-700"
+            className="pointer my-4 inline-block rounded bg-primary-500 px-6 py-4 text-center text-xs uppercase tracking-widest text-neutral-100 hover:bg-primary-400 dark:bg-primary-600 dark:hover:bg-primary-700"
           >
             contact me
           </a>
