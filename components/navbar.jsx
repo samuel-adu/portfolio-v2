@@ -24,6 +24,7 @@ export default function Navbar() {
                 href="https://github.com/samuel-adu"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="hover:text-primary-500"
               >
                 <i className="fa-brands fa-github text-2xl"></i>
               </a>
@@ -33,13 +34,18 @@ export default function Navbar() {
                 href="https://www.linkedin.com/in/samuel-oa"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="hover:text-primary-500"
               >
                 <i className="fa-brands fa-linkedin text-2xl"></i>
               </a>
             </li>
           </ul>
 
-          <button onClick={toggleTheme} type="button">
+          <button
+            onClick={toggleTheme}
+            type="button"
+            className="hover:text-primary-500"
+          >
             {theme === "light" ? (
               <i className="fa-regular fa-moon text-2xl"></i>
             ) : (

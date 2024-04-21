@@ -1,64 +1,45 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Project({ project }) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col rounded border p-4 transition-all duration-150 ease-out hover:scale-105 dark:border-neutral-700 sm:p-8">
       <div className="relative flex-1">
         <div className="relative h-72 w-full">
-          <Image src={`/images/${project.img}`} alt="project preview" fill />
+          <Link href={project.liveUrl} target="_blank">
+            <Image src={`/images/${project.img}`} alt="project preview" fill />
+          </Link>
         </div>
       </div>
-      {/* Responsive image */}
-      {/* <div className="flex-1">
-        <Image
-          src={`/preview/${project.img}`}
-          alt="project preview"
-          width={475}
-          height={348}
-          sizes="100vw"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-        />
-      </div> */}
 
-      <div className="flex flex-1 flex-col bg-neutral-50 p-6 dark:bg-neutral-700">
-        <h3 className="text-xl font-semibold capitalize hover:text-primary-500">
+      <div className="flex flex-1 flex-col pt-8">
+        <h3 className="text-2xl font-semibold capitalize underline-offset-4 hover:text-primary-500 hover:underline hover:decoration-solid">
           <a href={project.liveUrl} target="_blank">
             {project.title}
           </a>
         </h3>
 
-        <p className="font-light">{project.description}</p>
-
-        {/* <div className="mb-2 flex gap-2">
-          {project.tools.map((tool) => (
-            <div
-              key={project.id}
-              className="font-mono lowercase text-primary-700"
-            >
-              {tool}
-            </div>
-          ))}
-        </div> */}
+        <p className="text-sm font-light">{project.description}</p>
 
         <div className="mt-auto">
           <a
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="mr-4 inline-block text-sm uppercase decoration-primary-500 decoration-2 underline-offset-8 hover:text-primary-500 hover:underline"
+            className="mr-2 inline-block rounded border border-neutral-400 px-2 py-2 text-base capitalize text-neutral-700 hover:border-primary-400 hover:bg-primary-400 hover:text-neutral-50 dark:text-neutral-50"
           >
-            <i class="fa-solid fa-brands fa-github fa-xl"></i>
+            <i className="fa-solid fa-brands fa-github fa-lg mr-1"></i>
+            view code
           </a>
+
           <a
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="mr-4 inline-block text-sm uppercase decoration-primary-500 decoration-2 underline-offset-8 hover:text-primary-500 hover:underline"
+            className="inline-block rounded border border-neutral-400 px-2 py-2 text-base capitalize text-neutral-700  hover:border-primary-400 hover:bg-primary-400 hover:text-neutral-50 dark:text-neutral-50"
           >
-            <i class="fa-solid fa-up-right-from-square fa-lg"></i>
+            <i className="fa-solid fa-up-right-from-square fa-lg mr-1"></i>
+            view project
           </a>
         </div>
       </div>
